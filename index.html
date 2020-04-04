@@ -594,10 +594,12 @@
 
     <script> 
         $(function(){
-          $("#gtco-welcome").load("partial_about.html"); 
-          $("#includedFooter").load("partial_footer.html"); 
+            $("#gtco-welcome").load("partial_about.html");  
         });
-    </script> 
+        $(function(){
+            $("#includedFooter").load("partial_footer.html");
+        });
+    </script>
 
     <script type="text/javascript">
         var map;
